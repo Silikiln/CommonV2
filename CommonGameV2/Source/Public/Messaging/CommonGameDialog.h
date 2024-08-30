@@ -29,7 +29,7 @@ public:
 };
 
 UCLASS()
-class COMMONGAME_API UCommonGameDialogDescriptor : public UObject
+class COMMONGAMEV2_API UCommonGameDialogDescriptor : public UObject
 {
 	GENERATED_BODY()
 	
@@ -55,7 +55,7 @@ public:
 
 
 UCLASS(Abstract)
-class COMMONGAME_API UCommonGameDialog : public UCommonActivatableWidget
+class COMMONGAMEV2_API UCommonGameDialog : public UCommonActivatableWidget
 {
 	GENERATED_BODY()
 	

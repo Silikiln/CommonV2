@@ -16,7 +16,7 @@ enum class ECommonSessionInformationState : uint8;
  * for pushing information from the session subsystem to the presence system
  */
 UCLASS(BlueprintType, Config = Engine)
-class COMMONUSER_API UCommonUserBasicPresence : public UGameInstanceSubsystem
+class COMMONUSERV2_API UCommonUserBasicPresence : public UGameInstanceSubsystem
 {
 	GENERATED_BODY()
 

@@ -54,7 +54,7 @@ enum class ECommonSessionOnlineMode : uint8
 
 /** A request object that stores the parameters used when hosting a gameplay session */
 UCLASS(BlueprintType)
-class COMMONUSER_API UCommonSession_HostSessionRequest : public UObject
+class COMMONUSERV2_API UCommonSession_HostSessionRequest : public UObject
 {
 	GENERATED_BODY()
 
@@ -111,7 +111,7 @@ public:
 
 /** A result object returned from the online system that describes a joinable game session */
 UCLASS(BlueprintType)
-class COMMONUSER_API UCommonSession_SearchResult : public UObject
+class COMMONUSERV2_API UCommonSession_SearchResult : public UObject
 {
 	GENERATED_BODY()
 
@@ -164,7 +164,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FCommonSession_FindSessionsFinished
 
 /** Request object describing a session search, this object will be updated once the search has completed */
 UCLASS(BlueprintType)
-class COMMONUSER_API UCommonSession_SearchSessionRequest : public UObject
+class COMMONUSERV2_API UCommonSession_SearchSessionRequest : public UObject
 {
 	GENERATED_BODY()
 
@@ -252,7 +252,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FCommonSessionOnSessionInformatio
  * If a game-specific subclass exists, this base subsystem will not be created.
  */
 UCLASS(BlueprintType, Config=Engine)
-class COMMONUSER_API UCommonSessionSubsystem : public UGameInstanceSubsystem
+class COMMONUSERV2_API UCommonSessionSubsystem : public UGameInstanceSubsystem
 {
 	GENERATED_BODY()
 

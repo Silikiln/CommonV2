@@ -10,7 +10,7 @@ class APawn;
 class UObject;
 
 UCLASS(config=Game)
-class COMMONGAME_API ACommonPlayerController : public AModularPlayerController
+class COMMONGAMEV2_API ACommonPlayerController : public AModularPlayerController
 {
 	GENERATED_BODY()
 

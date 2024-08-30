@@ -214,5 +214,5 @@ struct FOnlineResultInformation
 	 * Initialize this from an FOnlineErrorType
 	 * @param InOnlineError the online error to initialize from
 	 */
-	void COMMONUSER_API FromOnlineError(const FOnlineErrorType& InOnlineError);
+	void COMMONUSERV2_API FromOnlineError(const FOnlineErrorType& InOnlineError);
 };

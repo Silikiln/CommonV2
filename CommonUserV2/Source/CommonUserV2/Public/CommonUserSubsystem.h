@@ -21,7 +21,7 @@ class FNativeGameplayTag;
 class IOnlineSubsystem;
 
 /** List of tags used by the common user subsystem */
-struct COMMONUSER_API FCommonUserTags
+struct COMMONUSERV2_API FCommonUserTags
 {
 	// General severity levels and specific system messages
 
@@ -44,7 +44,7 @@ struct COMMONUSER_API FCommonUserTags
 
 /** Logical representation of an individual user, one of these will exist for all initialized local players */
 UCLASS(BlueprintType)
-class COMMONUSER_API UCommonUserInfo : public UObject
+class COMMONUSERV2_API UCommonUserInfo : public UObject
 {
 	GENERATED_BODY()
 
@@ -157,7 +157,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_FourParams(FCommonUserAvailabilityChangedDele
 
 /** Parameter struct for initialize functions, this would normally be filled in by wrapper functions like async nodes */
 USTRUCT(BlueprintType)
-struct COMMONUSER_API FCommonUserInitializeParams
+struct COMMONUSERV2_API FCommonUserInitializeParams
 {
 	GENERATED_BODY()
 	
@@ -208,7 +208,7 @@ struct COMMONUSER_API FCommonUserInitializeParams
  * If a game-specific subclass exists, this base subsystem will not be created.
  */
 UCLASS(BlueprintType, Config=Engine)
-class COMMONUSER_API UCommonUserSubsystem : public UGameInstanceSubsystem
+class COMMONUSERV2_API UCommonUserSubsystem : public UGameInstanceSubsystem
 {
 	GENERATED_BODY()
 

@@ -20,7 +20,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FPushContentToLayerForPlayerAsyncDel
  * 
  */
 UCLASS(BlueprintType)
-class COMMONGAME_API UAsyncAction_PushContentToLayerForPlayer : public UCancellableAsyncAction
+class COMMONGAMEV2_API UAsyncAction_PushContentToLayerForPlayer : public UCancellableAsyncAction
 {
 	GENERATED_UCLASS_BODY()
 

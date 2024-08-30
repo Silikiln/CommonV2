@@ -48,7 +48,7 @@ private:
 };
 
 UCLASS(Abstract, BlueprintType, Blueprintable, meta = (DisableNativeTick))
-class COMMONGAME_API UCommonPlayerInputKey : public UCommonUserWidget
+class COMMONGAMEV2_API UCommonPlayerInputKey : public UCommonUserWidget
 {
 	GENERATED_BODY()
 

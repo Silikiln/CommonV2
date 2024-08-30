@@ -19,7 +19,7 @@ struct FFrame;
  * Async action to handle different functions for initializing users
  */
 UCLASS()
-class COMMONUSER_API UAsyncAction_CommonUserInitialize : public UCancellableAsyncAction
+class COMMONUSERV2_API UAsyncAction_CommonUserInitialize : public UCancellableAsyncAction
 {
 	GENERATED_BODY()
 

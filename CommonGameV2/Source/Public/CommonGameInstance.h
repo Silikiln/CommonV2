@@ -20,7 +20,7 @@ struct FFrame;
 struct FGameplayTag;
 
 UCLASS(Abstract, Config = Game)
-class COMMONGAME_API UCommonGameInstance : public UGameInstance
+class COMMONGAMEV2_API UCommonGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 

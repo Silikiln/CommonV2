@@ -31,7 +31,7 @@ DECLARE_DELEGATE_OneParam(FCommonMessagingResultDelegate, ECommonMessagingResult
  * 
  */
 UCLASS(config = Game)
-class COMMONGAME_API UCommonMessagingSubsystem : public ULocalPlayerSubsystem
+class COMMONGAMEV2_API UCommonMessagingSubsystem : public ULocalPlayerSubsystem
 {
 	GENERATED_BODY()
 
